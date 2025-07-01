@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://i.imgur.com/4gLDhUt.png" />
+  <title>My Spotify Clone</title>
+  <link rel="stylesheet" href="./CSS/Style.css" />
+  <link rel="stylesheet" href="./CSS/utility.css" />
+</head>
+<body>
+  <img src="./CSS/LOGO.png" width="40px" alt="" />
+
+  <div class="cont flex">
+    <!-- LEFT SIDE -->
+    <div class="left black">
+      <div class="home rounded m2 p2 lil">
+        <div class="LOGO">
+          <img src="./CSS/LOGO3.png" width="100" alt="" />
+        </div>
+        <ul>
+          <li><img src="./CSS/home.svg" id="svg" width="35px" alt="HOME" /> HOME</li>
+          <li><img src="./CSS/search.svg" id="svg" width="35px" alt="SEARCH" /> SEARCH</li>
+        </ul>
+      </div>
+
+      <div class="lib m2 p2 lil">
+        <div class="heading">
+          <img src="./CSS/playlist.svg" alt="" />
+          <h3>YOUR LIBRARY</h3>
+        </div>
+        <div class="songlist">
+          <ul></ul>
+        </div>
+        <div class="footer">
+          <span style="display: block;">© 2025 Sumeet Spotify. All rights reserved.</span>
+          <span><a href="https://www.google.com/">Legal</a></span> | 
+          <span><a href="https://www.google.com/">Privacy</a></span> | 
+          <span><a href="https://www.google.com/">Center</a></span> | 
+          <span><a href="https://www.google.com/">Connections</a></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+      <div class="header">
+        <div class="nav">
+          <img src="./CSS/left.svg" style="border-radius: 50%; background-color: black;" width="30px" alt="" />
+          <img src="./CSS/right.svg" style="border-radius: 50%; background-color: black;" width="30px" alt="" />
+        </div>
+        <div class="buttons">
+          <button class="btn1">SIGN-UP</button>
+          <button class="btn2">LOG-IN</button>
+        </div>
+      </div>
+
+      <div class="spotifyplaylist">
+        <div class="cardcont">
+          <!-- CARD 1 -->
+          <div class="card lil" id="o" data-song-index="0">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/Sorrow.jpg" width="180px" alt="" />
+            <h2>Sorrow</h2>
+            <p style="font-size: 12px;">Real boss Most underrated rapper</p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="card lil" id="t" data-song-index="1">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/smg.jpg" width="180px" alt="" />
+            <h2>ITS HARD</h2>
+            <p style="font-size: 12px;">Upcoming artist gonna make huge change</p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="card lil" id="t" data-song-index="2">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/arjan.jpg" width="180px" alt="" />
+            <h2>Maharani Jindha</h2>
+            <p style="font-size: 12px;">A melody song for legendary Maharani Jinda</p>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="card lil" id="th" data-song-index="3">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/Sultan2.jpg" width="180px" alt="" />
+            <h2>Seed</h2>
+            <p style="font-size: 12px;">Most brutal diss ever</p>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="card lil" id="f" data-song-index="4">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/cheema.jpg" width="180px" alt="" />
+            <h2>Thakde Gharde</h2>
+            <p style="font-size: 12px;">Heart felt song</p>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="card lil" id="s" data-song-index="5">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/Navaan.jpg" width="180px" alt="" />
+            <h2>Kalle Angoor</h2>
+            <p style="font-size: 12px;">A teasing song for someone u luv</p>
+          </div>
+
+          <!-- CARD 7 -->
+          <div class="card lil" id="se" data-song-index="6">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/khush.png" width="180px" alt="" />
+            <h2>Woki Toki</h2>
+            <p style="font-size: 12px;"></p>
+          </div>
+
+          <!-- CARD 8 -->
+          <div class="card lil" id="e" data-song-index="7">
+            <div class="play"><img src="./CSS/play.svg" id="svg2" alt="" /></div>
+            <img src="./images/GG.jpg" width="180px" alt="" />
+            <h2>Network</h2>
+            <p style="font-size: 12px;"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PLAYBAR -->
+      <div class="playbar">
+        <div class="seekbar">
+          <div class="circle">
+            <img src="./CSS/Star.svg" id="circlee" height="23px" width="23px" alt="" />
+          </div>
+        </div>
+        <div class="abovebar">
+          <div class="songinfo"></div>
+          <div class="songbtn">
+            <img id="prev" style="cursor: pointer;" src="./CSS/prev.svg" alt="" />
+            <img id="playb" style="cursor: pointer;" src="./CSS/play2.svg" alt="" />
+            <img id="next" style="cursor: pointer;" src="./CSS/next.svg" alt="" />
+          </div>
+          <div class="sngv">
+            <div class="songtime"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL FOR ENLARGED IMAGE -->
+  <div
+    id="imgModal"
+    style="
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+      z-index: 99;
+    "
+  >
+    <img id="modalImg" src="" style="max-width: 90%; max-height: 90%" />
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>

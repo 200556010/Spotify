@@ -1,0 +1,8 @@
+<svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15 6L9 12L15 18" stroke="#39FF14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <style>
+    svg path {
+      filter: drop-shadow(0 0 4px #39FF14) drop-shadow(0 0 8px #39FF14);
+    }
+  </style>
+</svg>

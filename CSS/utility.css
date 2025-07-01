@@ -1,0 +1,76 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+  
+    
+}
+.jtc {
+    justify-content: center;
+}
+.alc{
+    align-items: center;
+}
+.rounded {
+    border-radius: 10px;
+}
+.m2 {
+    margin: 10px;
+}
+.p2 {
+    padding: 10px;
+}
+/* Thin Black Scrollbar for Dark Website */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #111; /* dark background */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #333; /* dark thumb */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #444; /* slightly lighter on hover */
+}
+
+
+
+/* Neon Green Scrollbar for .cardcont */
+.cardcont::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cardcont::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.cardcont::-webkit-scrollbar-thumb {
+  background: #39FF14;
+  border-radius: 6px;
+  box-shadow:
+    0 0 5px #39FF14,
+    0 0 10px #39FF14,
+    0 0 20px #39FF14;
+}
+
+.cardcont::-webkit-scrollbar-thumb:hover {
+  background: #66ff66;
+}
+.neon-line {
+  border: none;
+  height: 2px;
+  background: #39FF14;
+  box-shadow:
+    0 0 5px #39FF14,
+    0 0 10px #39FF14,
+    0 0 20px #39FF14;
+  margin: 20px 0;
+}

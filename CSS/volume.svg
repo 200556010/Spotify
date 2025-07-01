@@ -1,0 +1,11 @@
+<svg width="100" height="50" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="lime" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Volume down icon -->
+  <line x1="10" y1="25" x2="20" y2="25"/>
+  
+  <!-- Rocker bar -->
+  <rect x="40" y="15" width="20" height="20" rx="5" fill="lime" stroke="lime"/>
+
+  <!-- Volume up icon -->
+  <line x1="80" y1="25" x2="90" y2="25"/>
+  <line x1="85" y1="20" x2="85" y2="30"/>
+</svg>
